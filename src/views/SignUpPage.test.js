@@ -27,7 +27,7 @@ describe('Sign Up Page', () => {
       wrapper = mount(SignUpPage)
     })
     it('has Sign Up Header', () => {
-      expect(wrapper.find('h1').text()).eq('Sign Up')
+      expect(wrapper.find('h2').text()).eq('Sign Up')
     })
     it('has username input', () => {
       expect(wrapper.find('input').exists()).toBeTruthy()
